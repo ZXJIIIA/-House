@@ -1,0 +1,154 @@
+body { 
+    background-color:lightyellow;
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           5px;
+  }
+  
+  #header {
+      background-color:burlywood;
+    
+      height:   4.5cm;
+  }
+  
+  #header img#headerbanhui {
+      float: left;
+  }
+  
+  h1 {
+    float:right;
+    font-size:        600%;
+    color:            #954b4b;
+  }
+
+
+  #Ourthreeyears {
+    display: table-cell;
+    background-color:lightgoldenrodyellow;
+    width: 40px;
+    padding: 5px 2px;
+    vertical-align: top;
+  }
+
+  h2 { 
+    font-size: 200%; 
+    font-style:italic;
+    color:#b76666;
+}
+
+#tableContainer {
+    display: table;
+    border-spacing: 20px;
+}
+
+#main {
+    display: table-cell;
+    background-color: lightgoldenrodyellow ;
+    font-size:        105%;
+    padding:          15px;
+    width: 40%;
+    vertical-align: top;
+  }
+
+#video{
+    margin: 10px 5px;
+}
+#footer {
+    background-color: burlywood;
+    color:            #954b4b;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+  }
+
+  a:link {
+    color:aquamarine;
+    text-decoration:underline;
+  }
+  
+  a:visited {
+    color:            #675c47;
+    text-decoration:  none;
+    border-bottom:    thin dotted #675c47;
+  }
+
+#yiqi{
+    display:flexbox;
+    background-color: lightgoldenrodyellow ;
+    margin: 0px 10px 10px 10px;
+    padding:          15px;
+    border-spacing: 10px;
+}
+
+
+h4{
+    color:            #954b4b;
+    font-size:        250%;
+
+}
+#chaolianjie{
+    display: table-cell;
+    vertical-align: top;
+    background-color:aliceblue;
+    padding: 5px 20px;
+}
+#one{
+    display: table-cell;
+    vertical-align: top;
+    background-color:azure;
+    padding: 5px 20px;
+
+}
+#two{
+    display: table-cell;
+    vertical-align: top;
+    background-color:beige;
+    padding: 5px 20px;
+
+}
+#three{
+    display: table-cell;
+    vertical-align: top;
+    background-color:blanchedalmond;
+    padding: 5px 20px;
+
+}
+
+h5{
+    text-align:center;
+    font-size: 100%;
+}
+
+
+  /* REMOVE FOR CHAP 12 */
+  #award {
+      position: absolute;
+      top: 30px;
+      left: 365px;
+  }
+  
+  #coupon {
+      position: fixed;
+      top: 350px;
+      left: 0px;
+  }
+  
+  #coupon a {
+      border: none;
+  }
+  /*---*/
+  
+
+  
+
+  
+  .slogan { color: #954b4b; }
+  
+  .beanheading {
+    text-align:       center;
+    line-height:      1.8em;
+  }
+  
+
+  

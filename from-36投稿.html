@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>叁陆 我想对你说</title>
+    <link type="text/css" rel="stylesheet" href="from-36投稿.css">
+  </head>
+  <body>
+
+    <h1>叁陆 我想对你说</h1>
+    <h2>36house邀请函</h2>
+
+    <form action="http://starbuzzcoffee.com/processorder.php" method="post">
+      <div class="tableRow">
+        <fieldset>
+          <legend>基本信息：</legend>
+        <p>
+            姓名:
+              <input type="text" name="name" ><br>
+            就读学校:
+              <input type="text" name="school" ><br>
+            生日:
+              <input type="date" name="brithday" ><br>
+            联系电话:
+              <input type="tel" name="phonenumber" ><br>
+            邮箱:
+              <input type="email" name="weixin" ><br>
+            
+        </p>
+      </fieldset>
+		    <p>
+          投稿类型:
+            <select name="内容">
+              <option value="informal essay">随笔</option>
+              <option value="mood">心情</option>
+              <option value="vlog">vlog plog</option>
+              <option value="Feeling">感触</option>
+            </select>
+		    </p>
+		
+        <p>
+          投稿内容:<br>
+        <textarea name="comments" rows="10" cols="48"></textarea>
+        </p>
+      </div> 
+
+      <fieldset>
+        <legend>Mr.cai和大家想问的一些题外话:</legend>
+      <div class="tiwaihua">
+       
+        <p>
+		      大学挂科没有？: <br>
+          <input type="radio" name="type" value="嗯...">
+          嗯...
+            <br>
+          <input type="radio" name="type" value="绝对没有！" checked> 
+          绝对没有！
+		    </p>
+		   
+        <p>
+          还有多少天回鄂尔多斯和大家团聚: <input type="number" name="days" min="1" max="150">
+        </p>
+		
+		    <p>
+          最近的心情、状态、学业情况怎么样:<br>
+            <input type="checkbox" name="spice" value="活力满满">
+            活力满满<br>
+            <input type="checkbox" name="spice" value="比较焦虑" >
+            比较焦虑<br>
+            <input type="checkbox" name="spice" value="状态挺好的" >
+            状态挺好的<br>
+            <input type="checkbox" name="spice" value="临近期末忙着复习" >
+            临近期末忙着复习<br>
+            <input type="checkbox" name="spice" value="参与了科研项目和学科竞赛" >
+            参与了科研项目和学科竞赛<br>
+            <input type="checkbox" name="spice" value="遇到了烦心事急需开解" checked>
+            遇到了烦心事急需开解
+		    </p>
+      </div>
+      </fieldset>
+		    <p>
+            <input type="submit" value="submit">
+	    	</p>
+      </form>
+  </body>
+</html>
+
